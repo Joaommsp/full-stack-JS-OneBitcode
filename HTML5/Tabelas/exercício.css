@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tittle {
+    margin: 1rem;
+}
+
+#sistemaSolar-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+#sistemaSolar-table caption{
+    margin-bottom: .5rem;
+}
+
+#sistemaSolar-table th {
+    width: 10rem;
+    height: 2.5rem;
+}

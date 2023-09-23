@@ -1,0 +1,32 @@
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#list-section {
+    margin-left: 2rem;
+}
+
+#main-list {
+    list-style: circle;
+}
+
+#main-list #list-title {
+    font-size: 1.2em;
+    margin: 1rem 1rem;
+}
+
+#list-title {
+    list-style-type: disc;
+}
+
+#sublist {
+    margin-left: 5rem;
+    list-style-type: square;
+}
+
+#sublist-title {
+    margin: 1rem 0 1rem 3rem
+}

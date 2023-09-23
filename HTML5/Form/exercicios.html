@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="exercicios.css">
+
+    <title>Formulário</title>
+  </head>
+  <body>
+    <h1>Cadastro da Liga dos Astronautas</h1>
+    <div id="main-form-div">
+      <form action="" id="form">
+        <fieldset id="main-form">
+          <div id="inputs-name-div">
+            <label for="name-input">Nome</label>
+            <input type="text" id="name-input" />
+          </div>
+          <div id="inputs-singin-div">
+            <label for="email-input">E-mail</label>
+            <input type="email" id="email-input" />
+            <label for="pswd-input">Senha</label>
+            <input type="password" id="pswd-input" />
+          </div>
+          <label for="date-input">Data de nascimento:</label>
+          <input type="date" id="date-input" />
+          <label for="pfp-input">Foto:</label>
+          <input type="file" id="pfp-input" />
+
+          <div id="nation-gen-div">
+            <label for="nationality-input">Nacionalidade:</label>
+            <select name="nationality-select" id="nationality-selec">
+              <option value="">Brasileiro</option>
+              <option value="">Português</option>
+              <option value="">Estadunidense</option>
+              <option value="">Argentino</option>
+            </select>
+            <div id="gen-div">
+              <span>Gênero</span>
+              <label for="genM-radio">M</label>
+              <input
+                type="radio"
+                id="genM-radio"
+                name="gen"
+                value="m"
+                checked
+              />
+              <label for="genF-radio">F</label>
+              <input type="radio" id="genF-radio" name="gen" value="f" />
+            </div>
+          </div>
+          <div id="qualities-div">
+            <span>Suas Principais Qualidades:</span>
+            <div id="qualities-checks">
+              <label for="inteligence-chekbox">Inteligência</label>
+            <input type="checkbox" id="inteligence-chekbox" />
+            <label for="resilience-checkbox">Resiliência</label>
+            <input type="checkbox" id="resilience-checkbox" />
+            <label for="fisicPrepare-checkbox">Prepraro Físico</label>
+            <input type="checkbox" id="fisicPrepare-checkbox" />
+            <label for="educatio-checkbox">Educação</label>
+            <input type="checkbox" id="educatio-checkbox" />
+            </div>
+          </div>
+          <div id="textarea-div">
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Porque você gostaria de ser um astronauta"
+            ></textarea>
+          </div>
+        </fieldset>
+        <button type="submit" id="submit-button">Criar</button>
+      </form>
+    </div>
+    <div id="video-div">
+      <video controls width="500px" height="500px">
+        <source src="Rocket League (64-bit, DX11, Cooked) 2023-03-18 22-13-21.mp4">
+      </video>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,104 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#form {
+    width: 40rem;
+    height: fit-content;
+    margin: 0 auto;
+    padding: 2%;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+#main-form {
+    padding: 2%;
+    border-radius: 10px;
+}
+
+#inputs-name-div {
+    display: flex;
+    margin: .5rem 0;
+}
+
+#inputs-name-div label {
+    width: 75px;
+    height: 30px;
+    padding: 5px 10px;
+}
+
+#inputs-name-div input {
+    width: 90%;
+    height: 30px;
+}
+
+#inputs-singin-div {
+    display: flex;
+    flex-direction: row;
+    margin: .5rem 0;
+}
+
+#inputs-singin-div label {
+    width: 75px;
+    height: 30px;
+    text-align: center;
+    padding: 5px 10px;
+}
+
+#inputs-singin-div input {
+    width: 200px;
+    height: 30px;
+}
+
+#inputs-singin-div #email-input {
+    margin-right: .5rem;
+}
+
+#date-input {
+    display: block;
+    margin: .5rem;
+}
+
+#pfp-input {
+    margin: .5rem;
+}
+
+#nation-gen-div {
+    display: flex;
+}
+
+#nation-gen-div label {
+    margin-right: .5rem;
+}
+
+#nation-gen-div #nationality-selec {
+    margin-right: 5rem;
+}
+
+#gen-div span {
+    margin-right: 1rem;
+}
+
+#qualities-div {
+    display: flex;
+    flex-direction: column;
+}
+
+#qualities-div span {
+    margin: .5rem 0;
+}
+
+#qualities-div #qualities-checks {
+    margin: 0 0 .5rem 0;
+}
+
+#submit-button {
+    width: 75px;
+    height: 32px;
+    margin-top: .5rem;
+    border: black 1px solid;
+    border-radius: 5px;
+}

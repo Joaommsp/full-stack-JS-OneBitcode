@@ -1,0 +1,48 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-color: #2c3e50;
+}
+
+h1 {
+    color: #ffffff;
+    margin-top: 2rem;
+    margin-left: 5rem;
+    margin-bottom: 2rem;
+}
+
+#days-of-week {
+    margin-left: 3rem;
+}
+
+#days-of-week h3 {
+    color: #f1c40f;
+    margin-bottom: 1rem;
+}
+
+#days-of-week li {
+    color: #ffffff;
+    margin-left: 2rem;
+}
+
+#activities h2 {
+    width: 98%;
+    background-color: #f1c40f;
+    border: 2px solid #000000;
+    margin:  1.5rem auto;
+    padding-left: 2rem;
+}
+
+#activities ul {
+    color: #ffffff;
+    margin-left: 5rem;
+}
+
+.astronomy-class {
+    color: #e74c3c;
+}
